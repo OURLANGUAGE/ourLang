@@ -1,0 +1,124 @@
+hello new users of OURLang
+here tutorial
+to write helloworld
+simple!
+
+right click the file
+click open
+
+and
+see mark
+below 
+:workspace
+
+inside remark
+rem Write
+rem Here
+
+and
+if you see the code delete that from :line1 to :line4
+done
+and
+write
+this code
+:line1
+call :clrScr
+:line2
+call :send msg , "Hello, World!"
+:line3
+call :KeybReadKey
+:line4
+call :end
+done
+and run it
+this will display Hello, World!
+Explain
+line1
+call :clrScr it will clear the screen its optimal
+line2
+call :send msg , "Hello, World!" it will print the text
+the 'msg' is for message
+line3
+call :KeybReadKey it will pause and wait until you pressed a key form your keyboard
+line4
+call :end this func will end your code turn
+important! dont forget this or will do endless loop
+note: sorry for my bad english im indonesian
+
+list func of ver 1.0stable
+send:
+syntax:
+call :send {mode} , {"Message"} , [{%variable%}]
+{mode}
+msg: send text to screen
+boxTitle: set the {"Message"} to title of cmd
+variable: a variable to includes
+
+add:
+syntax:
+call :add [num1] , [num2]
+desc:
+will adding [num2] with [num1] and printit
+
+sub:
+syntax:
+call :sub [num1] , [num2]
+desc:
+will subtract [num2] with [num1] and printit
+
+mul:
+syntax:
+call :mul [num1] , [num2]
+desc:
+will multiply [num2] with [num1] and printit
+
+div:
+syntax:
+call :div [num1] , [num2]
+desc:
+will divide [num2] with [num1] and printit
+note:
+dont set 0 [num2] its error
+
+showTime:
+syntax:
+call :showTime
+desc:
+display current time
+
+showDate:
+syntax:
+call :showDate
+desc:
+display current date
+
+end:
+syntax:
+call :end
+desc:
+will end turn line
+
+getInput:
+syntax:
+call :getInput
+desc:
+will getting input from user
+
+registerVar:
+syntax:
+call :registerVar {variablename} , (value)
+desc:
+set variable and store it with the variablename
+value can be int or something.
+
+clrScr:
+syntax:
+call :clrScr
+desc:
+clear the screen
+
+KeybReadKey:
+syntax:
+call :KeybReadKey
+desc:
+pause cmd and wait users to pressed a key
